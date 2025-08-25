@@ -1,0 +1,313 @@
+.back1
+{
+    background-color: black;
+    color: ghostwhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*,*::before,*::after
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* nav tab css start here */
+.grid-container1
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.s1
+{
+    color: #fe004f;
+}
+.grid-items1
+{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-items2
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left:100px ;
+}
+.grid-items2>div
+{
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.s2
+{
+ color: #fe004f;
+}
+.grid-items2>div>a
+{
+    text-decoration: none;
+    color: ghostwhite;
+    position: relative;
+}
+.grid-items2>div>a::after
+{
+    content:"";
+    position: absolute;
+    background-color: #fe004f;
+    height: 3px;
+    width: 0;
+    left:0;
+    bottom:-10px;
+    transition:0.3s;
+}
+.grid-items2>div>a:hover::after
+{
+    width:100%;
+}
+
+.label1
+{
+    margin-top: 200px;
+    font-size:45px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dfbg
+{
+background-color: rgb(20, 20, 20);
+margin-top: 200px;
+}
+.grid-container2
+{
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns: auto auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.grid-item3
+{
+    margin-left: 100px;
+}
+.grid-item4
+{
+    margin-right: 100px;
+    margin-left:80px;
+}
+.abt1
+{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.abt2
+{
+    font-size:15px;
+    margin-top: 0px;
+    color: #ABAB9C;
+}
+.education1
+{
+    text-decoration: underline;
+    color: #fe004f;
+    font-weight:bold;
+}
+.ig1
+{
+    height: 500px;
+    width:400px;
+    border-radius:40px;
+}
+.myservices
+{
+    padding-left:80px;
+    margin-top:100px;
+
+}
+.my1
+{
+    font-size:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-container3
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.card1
+{
+    background-color: rgb(40, 40, 40);
+    width: 380px;
+    height:180px;
+    border-radius: 20px;
+    padding-left:45px;
+    padding-top:45px;
+    margin-right:10px;
+    transition: background-color 0.5s,transform 0.5s;
+
+}
+.card1:hover
+{
+    background-color: #fe004f;
+    transform: translateY(-10px);
+   
+}
+.card1>p
+{
+    font-size:10px;
+
+}
+.card1>a
+{
+    text-decoration: none;
+    color: white;
+}
+.grid-container4
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.portfolio
+{
+    padding-left:80px;
+    margin-top:100px;
+
+}
+.work1
+{
+ font-size:50px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p1
+{
+    width:300px;
+    height:400px;
+    border-radius: 20px;
+}
+.p2
+{
+    width:300px;
+    height:400px;
+    border-radius:20px;
+}
+.p3
+{
+    width:300px;
+    height:400px;
+    border-radius:20px;
+}
+.see
+{
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px solid #fe004f;
+    width:200px;
+    text-align: center;
+    margin-left:450px;
+    margin-right:450px;
+    
+}
+.see:hover
+{
+    background-color: #fe004f;
+}
+.contact
+{
+    padding-left:80px;
+    margin-top:200px;
+}
+.c1
+{
+ font-size:50px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-container5
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap:60px;
+}
+.grid-item11>.c2,.c3
+{
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid-item11>button>a
+{
+    text-decoration: none;
+    color: ghostwhite;
+}
+.grid-item11>button
+{
+    font-size:15px;
+    background-color: #fe004f;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 15px;
+    margin-top:50px;
+}
+.grid-item12
+{
+    margin-top:50px;
+}
+input
+{
+    width:600px;
+    height: 50px;
+    background-color:#262626;
+    border: none;
+    border-radius:10px;
+    color: white;
+    padding-left: 15px;
+}
+.grid-item12>form>div
+{
+    margin-bottom:30px;
+}
+textarea
+{
+    background-color: #262626;
+    border: none;
+    border-radius:10px;
+    color: white;
+    padding-left: 15px;
+    width:600px;
+    height:180px;
+    padding-top:15px;
+}
+.grid-item12>form>button
+{
+    font-size:15px;
+    background-color: #fe004f;
+    border-radius: 10px;
+    border: none;
+    width:150px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 15px;
+    margin-top:10px; 
+    color: ghostwhite;
+    margin-bottom: 80px;
+}
+.foot1
+{
+    background-color: #262626;
+    text-align: center;
+    height:60px;
+    padding-top:20px;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.f1
+{
+    color: #fe004f;
+}
